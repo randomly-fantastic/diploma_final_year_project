@@ -1,0 +1,272 @@
+/*--------------Admin CSS------------------*/
+*
+{
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+
+
+.top-menu{
+	
+	border-radius:0px;
+}
+.top-menu .navbar-brand
+{
+	color:#fff;
+}
+.top-menu .navbar-brand:hover,.top-menu .navbar-brand:focus
+{
+	outline:none;
+}
+.admin-login
+{
+	width:50%;
+	height:256px;
+	margin:100px auto;
+}
+.admin-login .panel-heading h3
+{
+	padding:0px;
+	margin:0px;
+	text-align:center;	
+}
+.admin-login .panel-body .error_msg
+{
+	margin:0px 20px;
+}
+.admin-login .form-group
+{
+	margin:10px 20px;
+	
+	
+}
+.panel-body
+{
+	padding:10px;
+	margin:10px;
+	text-align:center;	
+	text-align:center;	
+	
+}
+
+.logout-li span{
+		
+	margin-left:20px;
+	padding:0px;
+}
+.logout-li:hover
+{
+	background-color:rgb(245, 245, 245);
+}
+.logout
+{
+	border:none;
+	background-color:transparent;
+}
+.logout:hover
+{
+	background-color:rgb(245, 245, 245);
+	
+}
+.container-fluid .header
+{
+	background-color:rgba(255,255,255,1);
+	padding:0px 0px 10px 20px;
+}
+.container-fluid .header h3
+{
+	color:rgba(19, 64, 114,1);
+	text-shadow:1px 1px 1px #999;
+}
+.user-nav 
+{
+	margin:20px 0px 0px 60px;
+}
+.user-icon .dropdown-toggle:hover,.user-icon .dropdown-toggle:focus
+{	
+	background-color:transparent;
+	color:rgba(42, 82, 127,1);
+}
+
+.user-icon > a
+{
+	text-decoration:none;
+	text-shadow:0px 0px 1px rgba(42, 82, 127,0.4);
+	color:rgba(42, 82, 127,0.7);
+}
+.left-nav
+{
+	background-color:rgba(255,255,255,1);
+	height:500px;
+	
+}
+.left-nav .left-menu
+{	
+	width:100%;
+	
+}
+.left-nav .left-menu a
+{
+	padding:10px;
+	border-radius:5px;
+}
+.active
+{
+	color:#fff;
+	background-color:rgba(19, 64, 114,1);
+}
+.left-nav .left-menu a:hover,.left-nav .left-menu a:focus
+{
+	color:#fff;
+	background-color:rgba(19, 64, 114,1);
+}
+
+.container-fluid .center-container
+{
+	
+	background-color:rgba(19, 64, 114,1);
+}
+
+
+
+.pages #home,.pages #dashboard,.pages #about
+{
+	display:none;
+	
+}
+
+/*       Dashboard      */
+
+.slider-content h4 span
+{
+	float:right;
+}
+
+.center-container .dashboard
+{
+	margin-top:40px;
+	
+}
+.center-container .dashboard .panel-heading
+{
+	background-color:transparent;
+	padding:0px 10px;
+	margin:0px 10px;
+	border-bottom:1px solid rgba(0,0,0,0.4);
+}
+
+.dashboard .social-links .form-inline
+{
+	margin-top:10px;
+}
+/*login form*/
+.login{
+	color: #fff;
+  font: 87.5%/1.5em 'Open Sans', sans-serif;
+	background:url(img/bg.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+  
+.form-wrapper {
+width:300px;
+height:370px;
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  margin: -184px 0px 0px -155px;
+  background:rgba(0,0,0,0.89);
+  padding: 15px 25px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px rgba(0,0,0,0.6),inset 0px 1px 0px rgba(255,255,255,0.04);
+}
+
+.form-item {
+width:100%;
+}
+
+
+h3{
+  font-size: 25px;
+  font-weight: 640;
+  margin-bottom: 10px;
+  color: #e7e7e7;
+  padding:6px;
+  font-family:'sans-serif','helvetica';
+}
+
+
+
+.form-item input{
+  border: none;
+  background:transparent;
+  color: #fff;
+  margin-top:11px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  height: 49px;
+  padding: 0 16px;
+  width: 100%;
+  padding-left: 55px;
+
+}
+input[type='password']{
+	background: transparent url("img/pass.jpg") no-repeat;
+	background-position: 10px 50%;
+	
+}
+input[type='text']{
+	background: transparent url("img/user.jpg") no-repeat;
+	background-position: 10px 50%;
+
+}
+
+.form-item input:focus {
+  outline: none;
+  border:1.4px solid #cfecf0;
+}
+
+.button-panel {
+  margin-bottom: 20px;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.button-panel .button {
+  background: #00b6df;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  height: 50px;
+  font-family: 'helvetica','Open Sans', sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background 0.6s linear;
+  width: 100%;
+  margin-top:10px;
+}
+
+.button:hover {
+  background: #6eb7cb;
+}
+
+.form-item input, .button-panel .button {
+  border-radius: 2px
+}
+
+.reminder {
+  text-align: center;
+}
+
+.reminder a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.reminder a:hover {
+  color: #cab6bf;
+}
